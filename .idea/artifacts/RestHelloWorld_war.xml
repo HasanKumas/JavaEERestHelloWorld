@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RestHelloWorld:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RestHelloWorld</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RestHelloWorld-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RestHelloWorld:war exploded" />
+    </root>
+  </artifact>
+</component>
